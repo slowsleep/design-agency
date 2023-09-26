@@ -1,7 +1,27 @@
+/* @media only screen and (min-width:375px){
+
+}
+
+@media only screen and (min-width:1440px){
+
+}
+
+@media only screen and (min-width:2500px){
+    body {
+        font-family: Nunito Sans, Arial;
+        font-weight: 400;
+    }
+} */
+
+
 body {
     margin: 0;
     font-family: Nunito Sans, Arial;
     font-weight: 300;
+    /* для экрана больше 1440px */
+    @media only screen and (min-width: 1480px) {
+        font-weight: 400;
+    }
 }
 
 body * {
@@ -9,8 +29,15 @@ body * {
 }
 
 .container {
-    max-width: 1250px;
     margin: 0 auto;
+    max-width: 1250px;
+    /* для экрана не более 375px */
+    @media only screen and (max-width: 375px) {
+        max-width: 375px;
+    }
+    @media only screen and (min-width: 1480px) {
+        max-width: 1440px;
+    }
 }
 
 .subtitle {
@@ -20,13 +47,7 @@ body * {
     text-transform: uppercase;
 }
 
-.logo {
-    color: #E3B873;
-}
 
-.c-white {
-    color: white;
-}
 
 header {
     background-color: black;
@@ -137,6 +158,9 @@ header {
     border-bottom: 1px solid black;
 }
 
+
+/* section of complited projects */
+
 .black {
     background-color: black;
     color: white;
@@ -145,6 +169,7 @@ header {
 .black-container {
     padding-top: 107px;
     padding-bottom: 414px;
+    margin-bottom: 50px;
 }
 
 .black-list {
@@ -204,4 +229,85 @@ header {
     width: 442px;
 }
 
+/* .over-back {
 
+} */
+
+.over-back-container {
+    margin-top: -30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.over-back-container > p {
+    width: 685px;
+    font-size: 18px;
+    color: #363636;
+    line-height: 204.6%;
+    text-align: center;
+}
+
+
+
+/* .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.text-center {
+    text-align: center;
+}
+
+label {
+    font-size: 13px;
+    color: rgba(54, 54, 54, 0.50);
+    /* position: absolute; */
+    /* top: -10px;
+    left: 10px; */
+}
+
+
+/* colors */
+.logo {
+    color: #E3B873;
+}
+
+.c-white {
+    color: white;
+}
+
+.white-text {
+    color: white;
+}
+
+input {
+    display: inline-block;
+    /* width: 6em; */
+    position: relative;
+    top: 1em;
+    margin-left: -3em;
+}
+
+label {
+    display: inline-block;
+    /* width: 6em; */
+    /* margin-right: -1em; */
+    padding-top: 1.5em;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.space-between {
+    justify-content: space-between;
+}
