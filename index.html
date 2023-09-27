@@ -10,10 +10,10 @@
 <body>
     <header class="header">
         <div class="container header-content">
-            <div class="logo f-11-400">
+            <div class="logo">
                 IC "Repair Design Project"</div>
             <nav>
-                <ul class="header-navigation f-11-400">
+                <ul class="header-navigation">
                     <li class="header-navigation__item"><a href="">HOME</a></li>
                     <li class="header-navigation__item"><a href="">PROJECTS</a></li>
                     <li class="header-navigation__item"><a href="">MEASUREMENT</a></li>
@@ -34,9 +34,9 @@
                 <h1 class="title">
                     <span class="c-white">Turnkey Repair in the <br> city of </span>Rostov-on-Don
                 </h1>
-                <p class="hero-p">Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work</p>
-                <button class="button hero-btn f-11-400">CALCULATE THE COST</button>
-                <button class="button hero-btn hero-btn-second bg-opacity f-11-400">SUBMIT YOUR APPLICATION</button>
+                <p>Get ready-made turnkey repairs on time with work time saving up to 45 days and 20% from cost of materials due to the organization of work</p>
+                <button class="button hero-btn">CALCULATE THE COST</button>
+                <button class="button hero-btn hero-btn-second">SUBMIT YOUR APPLICATION</button>
             </div>
             <div class="hero-overlay"></div>
         </section>
@@ -70,12 +70,11 @@
                                 <span>Upon request</span>
                             </div>
                         </div>
-                        <img src="./images/arrows.svg" alt="">
+                        <img src="./images/icons/arrows.svg" alt="">
                     </div>
-                    <div>
-
+                    <!-- <div> -->
                         <img src="./images/compite_project.jpg" alt="">
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
         </section>
@@ -84,91 +83,95 @@
             <div class="container over-back-container">
                 <h3 class="subtitle white-text">online control</h3>
                 <div class="flex-center">
-                    <img src="./images/camera.svg" alt="">
+                    <img src="./images/icons/camera.svg" alt="">
                 </div>
                 <img src="./images/glues-the-ceiling.jpg" alt="">
-                <hr style="width: 129px">
+                <hr>
                 <p>At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
-                <form action="" style="width: 823px;">
-                    <div class="flex-row space-between">
+                <form class="over-back-form" action="">
+                    <div class="over-back-form__first_line">
 
-                        <label for="">
+                        <label class="label" for="">
                             Name
-                            <input class="input" type="text">
+                            <input class="input" type="text" placeholder="What is your name:">
                         </label>
                         <br>
 
-                        <label for="">
+                        <label class="label" for="">
                             Phone
-                            <input class="input" type="text">
+                            <input class="input" type="text" placeholder="Your phone number:">
                         </label>
                         <br>
                         <button class="button">Submit</button>
                     </div>
-                    <div class="flex-row">
-                        <input type="checkbox" name="" id="">
-                        I agree to the processing of personal data
+                    <div class="over-back-form__second_line">
+                        <label for="">
+                            <input type="checkbox" name="" id="">
+                            I agree to the processing of personal data
+                        </label>
                     </div>
                 </form>
             </div>
         </section>
 
         <section class="white">
-            <div class="container">
-                <h3>TYPES OF REPAIR</h3>
+            <div class="container white-container">
+                <h3 class="subtitle">TYPES OF REPAIR</h3>
                 <div>
-                    <img src="./images/tools.svg" alt="">
+                    <img src="./images/icons/tools.svg" alt="">
                 </div>
 
-                <div>
-                    <div>
-                        Redecorating
-                        <ul>
-                            <li>Dismantling of old coatings</li>
-                            <li>Wallpapering</li>
-                            <li>Painting walls and ceilings</li>
-                            <li>Laying flooring</li>
-                            <li>Replacing plumbing</li>
-                            <li>Replacing sockets and switches</li>
-                            <li>Replacing doors</li>
-                        </ul>
+                <div class="white-container-cards">
+                    <div class="white-container-cards__item">
+                        <div>
+                            Redecorating
+                            <ul>
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="button">from 900 rub / m2</button>
+                        </div>
                     </div>
-                    <div>
-                        <button class="button">from 900 rub / m2</button>
+                    <div class="white-container-cards__item">
+                        <div>
+                            Overhaul
+                            <ul>
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="button">from 1800 rub / m2</button>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        Overhaul
-                        <ul>
-                            <li>Dismantling of old coatings</li>
-                            <li>Wallpapering</li>
-                            <li>Painting walls and ceilings</li>
-                            <li>Laying flooring</li>
-                            <li>Replacing plumbing</li>
-                            <li>Replacing sockets and switches</li>
-                            <li>Replacing doors</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <button class="button">from 1800 rub / m2</button>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        Designer Repair
-                        <ul>
-                            <li>Dismantling of old coatings</li>
-                            <li>Wallpapering</li>
-                            <li>Painting walls and ceilings</li>
-                            <li>Laying flooring</li>
-                            <li>Replacing plumbing</li>
-                            <li>Replacing sockets and switches</li>
-                            <li>Replacing doors</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <button class="button">from 4000 rub / m2</button>
+                    <div class="white-container-cards__item">
+                        <div>
+                            Designer Repair
+                            <ul>
+                                <li>Dismantling of old coatings</li>
+                                <li>Wallpapering</li>
+                                <li>Painting walls and ceilings</li>
+                                <li>Laying flooring</li>
+                                <li>Replacing plumbing</li>
+                                <li>Replacing sockets and switches</li>
+                                <li>Replacing doors</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <button class="button">from 4000 rub / m2</button>
+                        </div>
                     </div>
                 </div>
 
@@ -191,15 +194,45 @@
                 </form>
             </div>
             <div style="justify-content: flex-end;">
-                <img src="./images/pig.svg" alt="">
+                <img src="./images/icons/pig.svg" alt="">
                 <p></p>
             </div>
         </section>
 
+        <section class="bg-image">
+            <h2>We realize your wildest fantasies</h2>
+        </section>
+
+        <section class="bg-white">
+            <div class="container">
+                <h2>our clients</h2>
+            </div>
+        </section>
+
+        <section class="map">
+            <div class="container container-map">
+
+            </div>
+        </section>
     </main>
 
     <footer>
-
+        <div class="container header-content">
+            <div class="logo">
+                IC "Repair Design Project"</div>
+            <nav>
+                <ul class="header-navigation">
+                    <li class="header-navigation__item"><a href="">HOME</a></li>
+                    <li class="header-navigation__item"><a href="">PROJECTS</a></li>
+                    <li class="header-navigation__item"><a href="">MEASUREMENT</a></li>
+                    <li class="header-navigation__item"><a href="">TEAM</a></li>
+                    <li class="header-navigation__item"><a href="">REVIEWS</a></li>
+                    <li class="header-navigation__item"><a href="">CONTACTS</a></li>
+                </ul>
+            </nav>
+            <a class="logo f-11-400" href="">+7 (928) 768-32-39</a>
+            <button class="button f-11-400">Request a call</button>
+        </div>
     </footer>
 </body>
 </html>
