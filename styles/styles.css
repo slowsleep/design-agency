@@ -62,7 +62,7 @@ body * {
     border: none;
     border-bottom: 1px solid black;
     position: relative;
-    /* top: 2em; */
+    top: 0.2em;
     /* margin-left: -0.5em; */
 }
 
@@ -334,7 +334,48 @@ header {
 .white-container-cards {
     display: flex;
     flex-direction: row;
+    margin-top: 2em;
+    width: 100%;
+    justify-content: space-between;
 }
+
+.white-container-cards__item {
+    margin-bottom: 8em;
+    width: 31%;
+    padding-bottom: 8em;
+    display: flex;
+    justify-content: center;
+}
+
+.white-container-cards__item-content {
+    height: 20em;
+}
+
+.white-container-cards__item-content-list {
+    background-color: white;
+    margin-top: 20em;
+    padding: 1em;
+    box-shadow: 0px 0px 38px 0px black;
+}
+
+.white-container-cards__item-content-button {
+    margin-top: -5%;
+}
+
+.white-container-cards__item-content-button > button {
+    width: 70%;
+}
+
+.white-container-cards__item:nth-child(1) {
+    background: url('../images/card_dedecorating.jpg') no-repeat;
+}
+.white-container-cards__item:nth-child(2) {
+    background: url('../images/card_overhaul.jpg') no-repeat;
+}
+.white-container-cards__item:nth-child(3) {
+    background: url('../images/card_designer_repair.jpg') no-repeat;
+}
+
 
 
 
@@ -351,9 +392,6 @@ header {
 
 
 /* colors */
-/* .logo {
-    color: #E3B873;
-} */
 
 .c-white {
     color: white;
