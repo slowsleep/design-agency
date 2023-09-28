@@ -306,7 +306,7 @@ header {
 }
 
 .over-back-form__first_line > label > input {
-    width: 130%;
+    width: 100%;
 }
 
 .over-back-form__first_line > button {
@@ -328,6 +328,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding-bottom: 18em;
 }
 
 
@@ -353,17 +354,39 @@ header {
 
 .white-container-cards__item-content-list {
     background-color: white;
-    margin-top: 20em;
-    padding: 1em;
+    margin-top: 18em;
+    padding: 2em;
     box-shadow: 0px 0px 38px 0px black;
+    width: 20em;
 }
 
+.white-container-cards__item-content-list > h3 {
+    text-transform: capitalize;
+    margin: 0em;
+}
+
+.white-container-cards__item-content-list > ul {
+    color: #959595;
+    font-size: 13px;
+    line-height: 204.6%;
+    padding-left: 1em;
+}
+
+
 .white-container-cards__item-content-button {
-    margin-top: -5%;
+    margin-top: -7%;
 }
 
 .white-container-cards__item-content-button > button {
     width: 70%;
+    height: 4em;
+    font-size: 16px;
+    padding: 0;
+}
+
+.white-container-cards__item-content-button > button > span {
+
+    color: white;
 }
 
 .white-container-cards__item:nth-child(1) {
@@ -378,6 +401,84 @@ header {
 
 
 
+.white-second-container {
+    background: url('../images/bg-white-section.jpg') no-repeat;
+    background-position: left -15% top -25%;
+
+}
+
+.white-second-container > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.white-second-container-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+    margin-left: 7em;
+    margin-right: 3em;
+    width: 40em;
+}
+
+.white-second-container-form {
+    background-color: black;
+    color: white;
+    margin-left: 10em;
+    width: 50em;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.white-second-container-form > p {
+    font-size: 18px;
+    word-wrap: break-word;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+}
+
+.white-second-container-form > button {
+    align-self: flex-end;
+}
+
+.white-second-container-content__item {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2em;
+    align-items: center;
+}
+
+/* .white-second-container-content__item > * {
+
+} */
+
+.white-second-container-content__item > p {
+    font-size: 14px;
+}
+
+.circle {
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+.circle > span {
+    margin-left: -2.9em;
+    margin-top: 0.7em;
+    color: white;
+    font-size: 18px;
+}
+
+.circle {
+    padding: 0;
+    margin: 0;
+}
 
 
 /* .flex-center {
