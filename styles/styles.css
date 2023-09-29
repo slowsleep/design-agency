@@ -130,7 +130,7 @@ header {
 }
 
 
-/* first section */
+/* first (hero) section */
 
 .hero {
     background-image: url('../images/hero.jpg');
@@ -140,7 +140,7 @@ header {
     position: relative;
 }
 
-.hero-overlay {
+.hero-overlay, .bg-image-overlay{
     content: '';
     position: absolute;
     top: 0;
@@ -150,7 +150,7 @@ header {
     background-color: rgba(0, 0, 0, .7);
 }
 
-.hero-container {
+.hero-container, .bg-image-container {
     position: relative;
     z-index: 1;
 }
@@ -183,7 +183,7 @@ header {
 
 
 
-/* section of complited projects */
+/* section of complited projects (black) */
 
 .black {
     background-color: black;
@@ -404,6 +404,7 @@ header {
 .white-second-container {
     background: url('../images/bg-white-section.jpg') no-repeat;
     background-position: left -15% top -25%;
+     margin-bottom: 15em;
 
 }
 
@@ -418,32 +419,51 @@ header {
 .white-second-container-content {
     display: flex;
     flex-direction: column;
-    row-gap: 3em;
-    margin-left: 7em;
+    row-gap: 5em;
+    margin-left: 8em;
     margin-right: 3em;
     width: 40em;
 }
 
-.white-second-container-form {
-    background-color: black;
-    color: white;
+.white-second-container__right {
     margin-left: 10em;
     width: 50em;
-    padding: 1em 2em;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1em;
 }
 
-.white-second-container-form > p {
+.white-second-container__right-form {
+    background-color: black;
+    color: white;
+    padding: 1em 3em;
+    display: flex;
+    flex-direction: column;
+    row-gap: .7em;
+    margin-bottom: 4em;
+}
+
+.white-second-container__right-form > hr {
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+}
+
+.white-second-container__right-form > p {
     font-size: 18px;
     word-wrap: break-word;
-    width: 50%;
+    width: 60%;
     align-self: center;
     text-align: center;
 }
 
-.white-second-container-form > button {
+.white-second-container__right-form > input {
+    background: transparent;
+    color: white;
+}
+
+.white-second-container__right-form > label {
+    color: rgba(255, 255, 255, 0.50);
+}
+
+
+.white-second-container__right-form > button {
     align-self: flex-end;
 }
 
@@ -462,35 +482,94 @@ header {
     font-size: 14px;
 }
 
+
+.yellow-circle {
+    display: inline-flex;
+    background: #E3B873;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
 .circle {
-    display: flex;
     color: white;
+    padding: .6em;
+    border: 8px solid white;
+    box-shadow: 0px 5px 15px 0px rgba(227,184,115, 0.15);
+    font-size: 20px;
+    line-height: 100%;
+    font-weight: bold;
+}
+
+
+.pig {
+    height: 72px;
+    width: 72px;
+}
+
+
+
+.bg-image {
+    position: relative;
+    background: url('../images/hall.jpg') no-repeat;
+}
+
+/* .bg-image:before {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, .5);
+} */
+
+.bg-image-container {
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.bg-image-container > * {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2em;
+}
+
+.bg-image-container > div:nth-child(2) {
+    margin-top: -5%;
+    margin-bottom: -5%;
+    row-gap: 2em;
+}
+
+.bg-image-container > div:nth-child(3) {
+    margin-top: -10%;
+    margin-bottom: -5%;
+    row-gap: 2em;
+}
+
+.bg-image-container-content-text {
     justify-content: center;
 }
 
-.circle > span {
-    margin-left: -2.9em;
-    margin-top: 0.7em;
-    color: white;
+.bg-image-container-content-text > h3 {
     font-size: 18px;
 }
 
-.circle {
-    padding: 0;
-    margin: 0;
-}
-
-
-/* .flex-center {
+.bg-image-container-content-text > ul {
     display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
-.text-center {
-    text-align: center;
+    flex-direction: column;
+    row-gap: 2em;
+    color: white;
 }
 
+.bg-image-container-content-text > ul > li:hover {
+    color:#E3B873;
+}
 
 /* colors */
 
