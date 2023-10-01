@@ -311,6 +311,7 @@ header {
 }
 
 
+/* section white */
 
 /* white container */
 
@@ -390,6 +391,8 @@ header {
     background: url('../images/card_designer_repair.jpg') no-repeat;
 }
 
+
+/* container white-second-container */
 
 
 .white-second-container {
@@ -524,6 +527,8 @@ header {
 }
 
 
+/* section bg-image */
+
 
 .bg-image {
     position: relative;
@@ -583,6 +588,35 @@ header {
     color:#E3B873;
     text-decoration: underline;
     text-underline-offset: 8px;
+}
+
+
+/* section bg-out-clients */
+
+.bg-our-clients {
+    background: url('../images/bg-our-clients.jpg');
+    margin-top: 10em;
+}
+
+.bg-our-clients-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.bg-our-clients-container > h2 {
+    text-align: center;
+}
+
+.bg-our-clients-container__cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.bg-our-clients-container__card {
+    display: flex;
+    flex-direction: column;
 }
 
 /* colors */
