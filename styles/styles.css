@@ -85,7 +85,7 @@ body * {
 
 /* header */
 
-header {
+header, footer {
     background-color: black;
 }
 
@@ -595,7 +595,8 @@ header {
 
 .bg-our-clients {
     background: url('../images/bg-our-clients.jpg');
-    margin-top: 10em;
+    margin-top: 6em;
+    padding-bottom: 20em;
 }
 
 .bg-our-clients-container {
@@ -609,15 +610,94 @@ header {
     text-align: center;
 }
 
+.bg-our-clients-container > p {
+    text-align: center;
+    width: 27%;
+}
+
 .bg-our-clients-container__cards {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2em;
 }
 
 .bg-our-clients-container__card {
     display: flex;
     flex-direction: column;
+    background: #FFF;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.04);
+    width: 30%;
+    padding: 1em;
+    row-gap: 1em;
 }
+
+.bg-our-clients-container__card_body {
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+}
+
+.bg-our-clients-container__card_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bg-our-clients-container__card_header > h3 {
+    width: 60%;
+    line-height: 127.05%;
+    text-transform: capitalize;
+}
+
+.bg-our-clients-container__card_header-image {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.bg-our-clients-container__card_header-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 50%; /
+}
+
+.bg-our-clients-container__card-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: -3em;
+    margin-left: -1em;
+}
+
+.bg-our-clients-container__card-footer__item {
+    font-size: 17px;
+    line-height: 138.6%;
+    background-color: #E3B873;
+    color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 1em;
+    height: 100%;
+}
+
+
+/* end section */
+
+.end-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-self: center;
+}
+
 
 /* colors */
 
