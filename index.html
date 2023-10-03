@@ -213,24 +213,24 @@
                         <form class="white-second-container__right-form" action="">
                             <p>Leave a request for free departure of the measurer</p>
                             <div class="white-second-container__right-form-input">
-                                <label class="label" for="form-question-input-name">
+                                <label class="label label-light" for="form-question-input-name">
                                     Name
                                 </label>
-                                <input id="form-question-input-name" class="input" type="text" placeholder="What is your name:">
+                                <input id="form-question-input-name" class="input input-transparent" type="text" placeholder="What is your name:">
                                 <hr>
                             </div>
                             <div class="white-second-container__right-form-input">
-                                <label class="label" for="form-question-input-phone">
+                                <label class="label label-light" for="form-question-input-phone">
                                     Phone
                                 </label>
-                                <input id="form-question-input-phone" class="input" type="text" placeholder="Your phone number:">
+                                <input id="form-question-input-phone" class="input input-transparent" type="text" placeholder="Your phone number:">
                                 <hr>
                             </div>
                             <div class="white-second-container__right-form-input">
-                                <label class="label" for="form-question-input-email">
+                                <label class="label label-light" for="form-question-input-email">
                                     Email
                                 </label>
-                                <input id="form-question-input-email" class="input" type="text" placeholder="Your email">
+                                <input id="form-question-input-email" class="input input-transparent" type="text" placeholder="Your email">
                                 <hr>
                             </div>
                             <label for="form-question-input-agree">
@@ -362,10 +362,42 @@
 
         <section class="end">
             <div class="container end-container">
-                <form class="end-form" action=""></form>
+                <form class="col end-form" action="">
+                    <h2 class="subtitle c-white">have any questions?</h2>
+                    <div class="row space-between end-form__input">
+                        <div class="col">
+                            <label class="label label-light" for="a">
+                                Name
+                            </label>
+                            <input id="a" class="input input-transparent" type="text" placeholder="What is your name:">
+                            <hr>
+                        </div>
+                        <div class="col">
+                            <label class="label label-light" for="">
+                                Phone
+                            </label>
+                            <input class="input input-transparent" type="text" placeholder="Your phone number:">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="col end-form__input">
+                        <label class="label label-light" for="">
+                            Question
+                        </label>
+                        <input class="input input-transparent" type="text" placeholder="I want to know:">
+                        <hr>
+                    </div>
+                    <label class="label label-light" for="">
+                        <input class="input" type="checkbox">
+                        I agree to the processing of personal data
+                    </label>
+                    <button class="button">Submit</button>
+                </form>
                 <h2 class="title">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29</h2>
+                <img src="./images/icons/social.svg" alt="">
                 <img src="./images/map.jpg" alt="">
             </div>
+            <div class="end-overlay"></div>
         </section>
     </main>
 
