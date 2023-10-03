@@ -116,14 +116,16 @@ header, footer {
     justify-content: space-between;
     height: 83px;
     align-items: center;
+    font-size: 11px;
+}
+
+.header-content > * {
+    font-size: 11px;
 }
 
 .logo {
     color: #E3B873;
-    font-size: 11px;
     text-transform: uppercase;
-    /* font-style: normal;
-    font-weight: 400; */
 }
 
 .header-navigation {
@@ -132,7 +134,8 @@ header, footer {
 }
 
 .header-navigation__item {
-    margin-right: 47px;
+    margin-right: 3em;
+    margin-left: 2em;
 }
 
 .header-navigation__item a {
@@ -170,6 +173,10 @@ header, footer {
     background: linear-gradient(180deg, rgba(24, 24, 24, 0.90) 3.47%, rgba(24, 24, 24, 0.72) 100%);
 }
 
+.hero-container {
+    width: 45%;
+}
+
 .hero-container, .bg-image-container {
     position: relative;
     z-index: 1;
@@ -181,24 +188,28 @@ header, footer {
 
 .hero-container > p {
     color: white;
-    width: 40%;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 163.68%;
-    margin-bottom: 1.5em;
 }
 
-.hero-btn {
+.button-hero {
     font-style: italic;
     font-size: 11px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
-.hero-btn-second {
+.button-hero-opacity {
     border: 1px white solid;
     box-shadow: none;
-    margin-left: 20px;
+    margin-left: 1.5em;
     background-color: rgba(0,0,0,0);
+    padding-left: 2.5em;
+    padding-right: 2.5em;
 }
 
 
