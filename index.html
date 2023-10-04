@@ -48,36 +48,39 @@
 
         <section class="black">
             <div class="container black-container">
-                <ul class="black-list">
-                    <li class="subtitle black-list__item"><a href="">Rostov-on-Don, Admiral</a></li>
-                    <li class="subtitle black-list__item"><a href="">Sochi Thieves</a></li>
-                    <li class="subtitle black-list__item"><a href="">Rostov-on-Don Patriotic</a></li>
-                </ul>
+
                 <div class="black-content">
-                    <div class="black-content-box">
+                    <div class="black-content__left">
                         <h2 class="black-content-title title">Completed projects</h2>
                         <p class="black-content-text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction <br>market we have made happy more than 1000 families</p>
                         <div class="black-cards">
                             <div class="black-card">
                                 <h3 class="title">City:</h3>
-                                <span>Rostov-on-Don <br>LCD admiral</span>
+                                <p>Rostov-on-Don <br>LCD admiral</p>
                             </div>
                             <div class="black-card">
                                 <h3 class="title">apartment area:</h3>
-                                <span>81 m2</span>
+                                <p>81 m2</p>
                             </div>
                             <div class="black-card">
                                 <h3 class="title">Repair time:</h3>
-                                <span>3.5 months</span>
+                                <p>3.5 months</p>
                             </div>
                             <div class="black-card">
                                 <h3 class="title">Repair Cost:</h3>
-                                <span>Upon request</span>
+                                <p>Upon request</p>
                             </div>
                         </div>
                         <img src="./images/icons/arrows.svg" alt="">
                     </div>
-                    <img src="./images/compite_project.jpg" alt="">
+                    <div class="black-content__right">
+                        <ul class="black-list">
+                            <li class="subtitle black-list__item"><a href="">Rostov-on-Don, Admiral</a></li>
+                            <li class="subtitle black-list__item"><a href="">Sochi Thieves</a></li>
+                            <li class="subtitle black-list__item"><a href="">Rostov-on-Don Patriotic</a></li>
+                        </ul>
+                        <img src="./images/compite_project.jpg" alt="">
+                    </div>
                 </div>
             </div>
         </section>
@@ -85,7 +88,7 @@
         <section class="over-back">
             <div class="container over-back-container">
                 <h3 class="subtitle white-text">online control</h3>
-                <div>
+                <div class="over-back-container-icon">
                     <img src="./images/icons/camera.svg" alt="">
                 </div>
                 <div class="over-back-container__videoplayer">
@@ -95,23 +98,28 @@
                 <hr>
                 <p>At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
                 <form class="over-back-form" action="">
-                    <div class="over-back-form__first_line">
-                        <label class="label" for="">
-                            Name
+                    <div class="over-back-form__first-line">
+                        <div class="over-back-form__first-line__input">
+                            <label class="label label-dark" for="">
+                                Name
+                            </label>
                             <input class="input" type="text" placeholder="What is your name:">
-                        </label>
-                        <br>
+                            <hr>
+                        </div>
 
-                        <label class="label" for="">
-                            Phone
+                        <div class="over-back-form__first-line__input">
+                            <label class="label label-dark" for="">
+                                Phone
+                            </label>
                             <input class="input" type="text" placeholder="Your phone number:">
-                        </label>
-                        <br>
+                            <hr>
+                        </div>
                         <button class="button">Submit</button>
                     </div>
-                    <div class="over-back-form__second_line">
-                        <label for="">
-                            <input type="checkbox" name="" id="">
+                    <div class="over-back-form__second-line">
+                        <label class="label">
+                            <input class="checkbox" type="checkbox">
+                            <span class="fake"></span>
                             I agree to the processing of personal data
                         </label>
                     </div>
@@ -218,33 +226,36 @@
                     <div class="white-second-container__right">
                         <form class="white-second-container__right-form" action="">
                             <p>Leave a request for free departure of the measurer</p>
-                            <div class="white-second-container__right-form-input">
-                                <label class="label label-light" for="form-question-input-name">
-                                    Name
-                                </label>
-                                <input id="form-question-input-name" class="input input-transparent" type="text" placeholder="What is your name:">
-                                <hr>
+                            <div class="white-second-container__right-form__inputs">
+                                <div class="white-second-container__right-form__inputs__item">
+                                    <label class="label label-light" for="form-question-input-name">
+                                        Name
+                                    </label>
+                                    <input id="form-question-input-name" class="input input-transparent" type="text" placeholder="What is your name:">
+                                    <hr>
+                                </div>
+                                <div class="white-second-container__right-form__inputs__item">
+                                    <label class="label label-light" for="form-question-input-phone">
+                                        Phone
+                                    </label>
+                                    <input id="form-question-input-phone" class="input input-transparent" type="text" placeholder="Your phone number:">
+                                    <hr>
+                                </div>
+                                <div class="white-second-container__right-form__inputs__item">
+                                    <label class="label label-light" for="form-question-input-email">
+                                        Email
+                                    </label>
+                                    <input id="form-question-input-email" class="input input-transparent" type="text" placeholder="Your email">
+                                    <hr>
+                                </div>
                             </div>
-                            <div class="white-second-container__right-form-input">
-                                <label class="label label-light" for="form-question-input-phone">
-                                    Phone
-                                </label>
-                                <input id="form-question-input-phone" class="input input-transparent" type="text" placeholder="Your phone number:">
-                                <hr>
-                            </div>
-                            <div class="white-second-container__right-form-input">
-                                <label class="label label-light" for="form-question-input-email">
-                                    Email
-                                </label>
-                                <input id="form-question-input-email" class="input input-transparent" type="text" placeholder="Your email">
-                                <hr>
-                            </div>
-                            <label for="form-question-input-agree">
-                                <input id="form-question-input-agree" type="checkbox" name="">
-                                I agree to the processing of personal data
+                            <label class="label">
+                                <input type="checkbox" class="checkbox" >
+                                <span class="fake"></span>
+                                <span class="text">I agree to the processing of personal data.</span>
                             </label>
                             <br>
-                            <button class="button">Call the measurer</button>
+                            <button class="button button-no-border">Call the measurer</button>
                         </form>
 
                         <div class="white-second-container__right-pig">
@@ -368,17 +379,17 @@
 
         <section class="end">
             <div class="container end-container">
-                <form class="col end-form" action="">
+                <form class="end-form" action="">
                     <h2 class="subtitle c-white">have any questions?</h2>
-                    <div class="row space-between end-form__input">
-                        <div class="col">
+                    <div class="end-form__first-line">
+                        <div class="end-form__first-line__input">
                             <label class="label label-light" for="a">
                                 Name
                             </label>
                             <input id="a" class="input input-transparent" type="text" placeholder="What is your name:">
                             <hr>
                         </div>
-                        <div class="col">
+                        <div class="end-form__first-line__input">
                             <label class="label label-light" for="">
                                 Phone
                             </label>
@@ -386,22 +397,23 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="col end-form__input">
+                    <div class="end-form__second-line">
                         <label class="label label-light" for="">
                             Question
                         </label>
                         <input class="input input-transparent" type="text" placeholder="I want to know:">
                         <hr>
                     </div>
-                    <label class="label label-light" for="">
-                        <input class="input" type="checkbox">
-                        I agree to the processing of personal data
+                    <label class="label">
+                        <input type="checkbox" class="checkbox" >
+                        <span class="fake"></span>
+                        <span class="text">I agree to the processing of personal data.</span>
                     </label>
-                    <button class="button">Submit</button>
+                    <button class="button button-no-border">Submit</button>
                 </form>
                 <h2 class="title">Rostov-on-Don, Nansen St., 239 Shopping Center Decorum Tel +7 (928) 768 32 29</h2>
                 <img src="./images/icons/social.svg" alt="">
-                <img src="./images/map.jpg" alt="">
+                <img class="end-container__img-map" src="./images/map.jpg" alt="">
             </div>
             <div class="end-overlay"></div>
         </section>
