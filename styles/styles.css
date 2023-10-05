@@ -2,6 +2,12 @@
 
 }
 
+/* для экрана меньше */
+/*
+@media only screen and (min-width:1250px){
+
+}
+
 @media only screen and (min-width:1440px){
 
 }
@@ -137,6 +143,10 @@ hr {
 }
 
 /* header */
+
+header {
+    padding: 0 1em;
+}
 
 header, footer {
     background-color: black;
@@ -288,12 +298,16 @@ header, footer {
     margin-right: 2.5em;
 }
 
+
 .black-content-text {
     font-size: 14px;
     line-height: 190%;
     margin-bottom: 42px;
 }
 
+.black-content-album {
+    display: none;
+}
 
 .black-cards {
     display: grid;
@@ -720,23 +734,43 @@ header, footer {
     margin-bottom: 1em;
 }
 
-.bg-image-container-content-text > ul {
+/* .bg-image-container-content-text > ul {
     display: flex;
     flex-direction: column;
     row-gap: 1em;
     color: white;
     font-size: 20px;
     padding-left: 0;
-    /* line-height: 190%; */
+    list-style: none;
+} */
+
+
+
+
+.bg-image-container-content-text__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    color: white;
+    font-size: 20px;
+    padding-left: 0;
     list-style: none;
 }
 
-.bg-image-container-content-text > ul > li:hover {
+.bg-image-container-content-text__list > li:hover {
     color:#E3B873;
     text-decoration: underline;
     text-underline-offset: 8px;
 }
 
+.bg-image-container-content-album {
+    display: none;
+}
+
+.bg-image-container-content-images {
+    display: flex;
+    flex-direction: row;
+}
 
 /* section bg-out-clients */
 

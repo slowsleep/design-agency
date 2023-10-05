@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
@@ -12,7 +13,7 @@
         <div class="container header-content">
             <div class="logo">
                 IC "Repair Design Project"</div>
-            <nav>
+            <nav class="nav">
                 <ul class="header-navigation">
                     <li class="header-navigation__item"><a href="">HOME</a></li>
                     <li class="header-navigation__item"><a href="">PROJECTS</a></li>
@@ -53,6 +54,10 @@
                     <div class="black-content__left">
                         <h2 class="black-content-title title">Completed projects</h2>
                         <p class="black-content-text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction <br>market we have made happy more than 1000 families</p>
+                        <div class="black-content-album">
+                            <img src="./images/complite_project2.jpg" alt="">
+
+                        </div>
                         <div class="black-cards">
                             <div class="black-card">
                                 <h3 class="title">City:</h3>
@@ -71,7 +76,7 @@
                                 <p>Upon request</p>
                             </div>
                         </div>
-                        <img src="./images/icons/arrows.svg" alt="">
+                        <img class="arrows" src="./images/icons/arrows.svg" alt="">
                     </div>
                     <div class="black-content__right">
                         <ul class="black-list">
@@ -273,7 +278,7 @@
             <div class="container bg-image-container">
                 <div class="bg-image-container-content-text">
                     <h2 class="subtitle">We realize your wildest fantasies</h2>
-                    <ul>
+                    <ul class="bg-image-container-content-text__list">
                         <li>American classic</li>
                         <li>Empire</li>
                         <li>Classical</li>
@@ -287,13 +292,18 @@
                         <li>Eclecticism</li>
                     </ul>
                 </div>
-                <div>
-                    <img src="./images/hall-pic-1.jpg" alt="">
-                    <img src="./images/hall-pic-2.jpg" alt="">
+                <div class="bg-image-container-content-album">
+                    <img src="./images/hall.jpg" alt="">
                 </div>
-                <div>
-                    <img src="./images/hall-pic-3.jpg" alt="">
-                    <img src="./images/hall-pic-4.jpg" alt="">
+                <div class="bg-image-container-content-images">
+                    <div>
+                        <img src="./images/hall-pic-1.jpg" alt="">
+                        <img src="./images/hall-pic-2.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./images/hall-pic-3.jpg" alt="">
+                        <img src="./images/hall-pic-4.jpg" alt="">
+                    </div>
                 </div>
             </div>
             <div class="bg-image-overlay"></div>
