@@ -37,7 +37,7 @@
     .hero {
         height: 100%;
         padding-top: 6em;
-        padding-bottom: 2em;
+        padding-bottom: 4em;
     }
 
 
@@ -69,10 +69,23 @@
     .black-content-title {
         font-size: 22px;
         width: 60%;
+        margin-bottom: .5em;
+    }
+
+    .black-content-text {
+        margin: 1em 0 2em;
+    }
+
+    .black-content__left {
+        padding-top: 2em;
     }
 
     .black-content__left > p {
         width: 90%;
+    }
+
+    .black-content-album {
+        margin: 2.5em 0 1.5em;
     }
 
     .album {
@@ -109,6 +122,14 @@
     .over-back-container > hr {
         width: 15%;
         border: 1px solid #E3B873;
+    }
+
+    .over-back-container-icon {
+        margin-top: 1em;
+    }
+
+    .over-back-container__videoplayer {
+        margin-bottom: 1.5em;
     }
 
     .over-back-form {
@@ -171,7 +192,7 @@
     }
 
     .white {
-        padding: 0 1em;
+        padding: 5em 1em 0 1em;
     }
 
     .white-container {
