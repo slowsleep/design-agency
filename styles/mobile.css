@@ -318,6 +318,17 @@
         /* filter: grayscale(100%); */
     }
 
+    .end-container__info {
+        order: 2;
+    }
+
+    .end-container__info > h2 {
+        width: 100%;
+    }
+
+    .end-container__img-map {
+        order: 1;
+    }
     /* img {
         width: 100%;
     } */
