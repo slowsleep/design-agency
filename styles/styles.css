@@ -453,6 +453,10 @@ footer, .end-form {
     margin-top: 4em;
 }
 
+.label-mobile {
+    display: none;
+}
+
 .over-back-form__first-line {
     display: flex;
     flex-direction: row;
@@ -1020,3 +1024,5 @@ footer, .end-form {
 .space-between {
     justify-content: space-between;
 }
+
+
