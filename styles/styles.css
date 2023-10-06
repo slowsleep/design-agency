@@ -148,8 +148,12 @@ header {
     padding: 0 1em;
 }
 
-header, footer {
-    background-color: black;
+header, .black, .white-second-container__right-form {
+    background: #131313;
+}
+
+footer, .end-form {
+    background: #181818;
 }
 
 .header-content {
@@ -195,6 +199,7 @@ header, footer {
 .hero {
     background-image: url('../images/hero.jpg');
     background-size: cover;
+    background-position: center;
     height: 707px;
     padding-top: 12em;
     position: relative;
@@ -258,7 +263,7 @@ header, footer {
 /* section of complited projects (black) */
 
 .black {
-    background-color: black;
+    /* background-color: black; */
     color: white;
 }
 
@@ -311,9 +316,10 @@ header, footer {
 
 .black-cards {
     display: grid;
-    grid-template-columns: 200px 200px;
-    grid-template-rows: 100px 100px;
-    margin-bottom: 3.5em;
+    grid-template-columns: 12em 12em;
+    grid-template-rows: 5em 5em;
+    margin-bottom: 5em;
+    row-gap: 1em;
 }
 
 .black-card {
@@ -596,7 +602,7 @@ header, footer {
 }
 
 .white-second-container__right-form {
-    background-color: black;
+    /* background-color: black; */
     color: white;
     padding: 1em 3em;
     display: flex;
@@ -698,28 +704,36 @@ header, footer {
     display: flex;
     flex-direction: row;
     z-index: 1;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
-.bg-image-container > * {
+.bg-image-container-content-images {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+
+.bg-image-container-content-images > div {
     display: flex;
     flex-direction: column;
 }
 
-.bg-image-container > div:nth-child(2) {
+.bg-image-container-content-images > div:nth-child(1) {
     margin-top: -2.5em;
     margin-bottom: -3.5em;
     margin-left: 2.5em;
     row-gap: 2.5em;
 }
 
-.bg-image-container > div:nth-child(3) {
+.bg-image-container-content-images > div:nth-child(2) {
     margin-top: -7em;
     row-gap: 2.5em;
-    /* margin-left: 2em; */
+    margin-left: 2.5em;
 }
 
 .bg-image-container-content-text {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 4em;
     margin-right: 2em;
@@ -917,7 +931,7 @@ header, footer {
     display: flex;
     flex-direction: column;
     width: 70%;
-    background-color: black;
+    /* background-color: black; */
     padding: 1em 3em 1.5em;
     align-items: center;
     row-gap: 2em;
