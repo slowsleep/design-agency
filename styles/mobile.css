@@ -132,6 +132,10 @@
         margin-bottom: 1.5em;
     }
 
+    .over-back-container__videoplayer_play > img {
+        width: 50%;
+    }
+
     .over-back-form {
         width: 100%;
         margin: 2em 0;
