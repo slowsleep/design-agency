@@ -907,12 +907,23 @@ footer, .end-form {
     order: 1;
 }
 
+.end-container__info__social {
+    display: flex;
+    width: 5.4em;
+    justify-content: space-around;
+}
+
+.end-container__info__social > .yellow-circle {
+    padding: .4em;
+    cursor: pointer;
+}
+
 .end-container__info > h2 {
     text-align: center;
-    width: 45%;
+    width: 65%;
     font-size: 20px;
     line-height: 138.6%;
-    margin-bottom: 1em;
+    margin-bottom: 1.3em;
 }
 
 .end-form__first-line{
