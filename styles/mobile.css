@@ -36,6 +36,7 @@
         color: white;
     }
 
+
     .container {
         padding: 0 1em;
     }
@@ -132,6 +133,11 @@
 
     .over-back-container__videoplayer {
         margin-bottom: 1.5em;
+        height: auto;
+    }
+
+    .over-back-container__videoplayer > img {
+        object-fit:fill;
     }
 
     .over-back-container__videoplayer_play > img {

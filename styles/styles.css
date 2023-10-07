@@ -367,10 +367,13 @@ footer, .end-form {
 .over-back-container__videoplayer {
     display: flex;
     position: relative;
+    width: 66%;
+    height: 27em;
 }
 
 .over-back-container__videoplayer > img {
     width: 100%;
+    object-fit:cover;
 }
 
 .over-back-container__videoplayer_video_overlay {
