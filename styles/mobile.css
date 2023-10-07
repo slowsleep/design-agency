@@ -24,14 +24,16 @@
         font-size: 22px;
     }
 
-    .container {
+    .container, .header-content, .hero-container, .hero-container > button, .over-back-container > p,
+    .over-back-form, .over-back-form__first-line > button, .over-back-form__first-line__input,
+    .black-content-album > img,  .black-content__left, .bg-image-container-content-album > img,
+    .end-form, .end-form > button, .end-form__first-line__input, .end-form__first-line, .end-form__second-line,
+    .end-container > h2, .end-container__info > h2, .end-container__img-map {
         width: 100%;
-        padding: 0 1em;
     }
 
-
-    .header-content {
-        width: 100%;
+    .container {
+        padding: 0 1em;
     }
 
     .header-content > a {
@@ -43,11 +45,6 @@
         height: 100%;
         padding-top: 6em;
         padding-bottom: 4em;
-    }
-
-
-    .hero-container, .hero-container > button, .over-back-container > p {
-        width: 100%;
     }
 
     .hero-container {
@@ -65,7 +62,6 @@
         line-height: 135.84%;
         margin-bottom: 3em;
     }
-
 
     .button-hero-opacity {
         margin-top: 2em;
@@ -104,8 +100,8 @@
         justify-content: space-between;
         position: absolute;
         width: 100%;
-        /* margin-top: 25%; */
         height: 100%;
+        padding: 0 1em;
     }
 
     .album-arrows__item {
@@ -116,9 +112,6 @@
         margin: auto 0;
     }
 
-    .black-content-album > img, .bg-image-container-content-album > img, .end-container__img-map {
-        width: 100%;
-    }
 
     .over-back-container {
         margin-top: 0;
@@ -141,11 +134,13 @@
         width: 50%;
     }
 
-    .over-back-form {
-        width: 100%;
-        margin: 2em 0;
+    .over-back-container__videoplayer_play > button {
+        padding: 2em;
     }
 
+    .over-back-form {
+        margin: 2em 0;
+    }
 
     .over-back-form__second-line {
         display: none;
@@ -161,16 +156,10 @@
     }
 
     .over-back-form__first-line > button {
-        width: 100%;
         margin-bottom: -6em;
     }
 
-    /* .over-back-form__first-line__input > label {
-        color: rgba(255, 255, 255, 0.50);
-    } */
-
     .over-back-form__first-line__input {
-        width: 100%;
         margin-top: 3em;
     }
 
@@ -196,7 +185,6 @@
     }
 
     .black-content__left {
-        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -211,11 +199,9 @@
         grid-template-columns: 8em 12em;
     }
 
-
     .button-hero-opacity {
         margin-left: 0;
     }
-
 
     .white {
         padding: 5em 1em 0 1em;
@@ -230,7 +216,6 @@
     }
 
     .white-container-cards__item {
-        /* width: 44%; */
         width: 22em;
         justify-content: flex-start;
         padding-bottom: 10em;
@@ -245,15 +230,13 @@
     .white-container-cards__item-content-list > h3, .white-container-cards__item-content-button > button > span {
         font-size: 15px;
     }
-    .white-container-cards__item-content-button > button {
 
+    .white-container-cards__item-content-button > button {
         height: 2.5em;
     }
 
-
     .bg-image-container {
         align-items: center;
-        /* margin-top: -10em; */
     }
 
     .bg-image-overlay {
@@ -288,7 +271,6 @@
 
     .end-form {
         margin-top: 0;
-        width: 100%;
         align-items: flex-start;
         padding: 1em 0 1.5em;
     }
@@ -298,7 +280,6 @@
     }
 
     .end-form > button {
-        width: 100%;
         margin: 0;
     }
 
@@ -307,55 +288,24 @@
         row-gap: 2em;
     }
 
-    .end-form__first-line__input {
-        width: 100%;
-    }
-
-
-    .end-form__first-line, .end-form__second-line {
-        width: 100%;
-    }
-
     .end-container {
         padding: 0 1em;
     }
 
-    .end-container > h2 {
-        width: 100%;
-    }
-
     .end::before {
         content: "";
-        /* position: absolute; */
         top: 0;
         left: 0;
-        /* width: 100%;
-        height: 100%; */
         background-color: #181818;
         background-image: none;
-        /* background-image: url(../images/bg-end.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center; */
-        /* filter: grayscale(100%); */
     }
 
     .end-container__info {
         order: 2;
     }
 
-    .end-container__info > h2 {
-        width: 100%;
-    }
-
     .end-container__img-map {
         order: 1;
     }
-    /* img {
-        width: 100%;
-    } */
-
-
-
 
 }
