@@ -22,13 +22,6 @@ hr {
 .container {
     margin: 0 auto;
     max-width: 1250px;
-    /* для экрана не более 375px */
-    /* @media only screen and (max-width: 375px) {
-        max-width: 375px;
-    }
-    @media only screen and (min-width: 1480px) {
-        max-width: 1440px;
-    } */
 }
 
 .subtitle {
@@ -51,10 +44,8 @@ hr {
 
 .input {
     border: none;
-    /* border-bottom: 1px solid black; */
     position: relative;
     top: 0.2em;
-    /* margin-left: -0.5em; */
 }
 
 .input-transparent {
@@ -72,12 +63,30 @@ hr {
     cursor: pointer;
 }
 
+.label-checkbox {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1em;
+}
+
+/* .label-checkbox > div:nth-child(2) {
+    width: 90%;
+} */
+
+.label-checkbox > div:nth-child(2) > p {
+    margin: 0;
+}
+
 .label-light {
     color: rgba(255, 255, 255, 0.50);
 }
 
 .label-dark {
     color: rgba(54, 54, 54, 0.50);
+}
+
+.label-mobile {
+    display: none;
 }
 
 .checkbox {
@@ -249,7 +258,6 @@ footer, .end-form {
 }
 
 
-
 /* section of complited projects (black) */
 
 .black {
@@ -346,7 +354,6 @@ footer, .end-form {
 
 /* over-back section */
 
-
 .over-back-container {
     margin-top: -26em;
     display: flex;
@@ -431,9 +438,6 @@ footer, .end-form {
     margin-top: 4em;
 }
 
-.label-mobile {
-    display: none;
-}
 
 .over-back-form__first-line {
     display: flex;
@@ -588,12 +592,10 @@ footer, .end-form {
 }
 
 .white-second-container__right-form {
-    /* background-color: black; */
     color: white;
     padding: 1em 3em;
     display: flex;
     flex-direction: column;
-    /* row-gap: 1em; */
     margin-bottom: 2em;
 }
 
