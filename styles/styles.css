@@ -360,6 +360,10 @@ footer, .end-form {
     margin-bottom: 0.3em;
 }
 
+.over-back-container > hr {
+    border: 1px solid #E3B873;
+}
+
 .over-back-container-icon {
     margin-bottom: 2em;
 }
@@ -369,6 +373,7 @@ footer, .end-form {
     position: relative;
     width: 66%;
     height: 27em;
+    margin-bottom: 3.5em;
 }
 
 .over-back-container__videoplayer > img {
