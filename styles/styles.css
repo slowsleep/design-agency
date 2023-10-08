@@ -354,7 +354,7 @@ footer, .end-form {
 
 /* over-back section */
 
-.over-back-container {
+.over-black-container {
     margin-top: -26em;
     display: flex;
     align-items: center;
@@ -363,19 +363,19 @@ footer, .end-form {
     margin-bottom: 8em;
 }
 
-.over-back-container > h3 {
+.over-black-container > h3 {
     margin-bottom: 0.3em;
 }
 
-.over-back-container > hr {
+.over-black-container > hr {
     border: 1px solid #E3B873;
 }
 
-.over-back-container-icon {
+.over-black-container-icon {
     margin-bottom: 2em;
 }
 
-.over-back-container__videoplayer {
+.over-black-container__videoplayer {
     display: flex;
     position: relative;
     width: 66%;
@@ -383,12 +383,12 @@ footer, .end-form {
     margin-bottom: 3.5em;
 }
 
-.over-back-container__videoplayer > img {
+.over-black-container__videoplayer > img {
     width: 100%;
     object-fit:cover;
 }
 
-.over-back-container__videoplayer_video_overlay {
+.over-black-container__videoplayer_video_overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -400,7 +400,7 @@ footer, .end-form {
     background-position: center center;
 }
 
-.over-back-container__videoplayer_play {
+.over-black-container__videoplayer_play {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -410,12 +410,12 @@ footer, .end-form {
     justify-content: center;
 }
 
-.over-back-container__videoplayer_play > button {
+.over-black-container__videoplayer_play > button {
     border-radius: 100%;
     padding: 4em;
 }
 
-.over-back-container > p {
+.over-black-container > p {
     width: 685px;
     font-size: 18px;
     color: #363636;
@@ -424,43 +424,43 @@ footer, .end-form {
     width: 51.2%;
 }
 
-.over-back-container > hr {
+.over-black-container > hr {
     width: 5%;
 }
 
-.over-back-container > img {
+.over-black-container > img {
     margin-top: 2em;
     margin-bottom: 3.5em;
 }
 
-.over-back-form {
+.over-black-form {
     width: 63%;
     margin-top: 4em;
 }
 
 
-.over-back-form__first-line {
+.over-black-form__first-line {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 2em;
 }
 
-.over-back-form__first-line > label > input {
+.over-black-form__first-line > label > input {
     width: 100%;
 }
 
-.over-back-form__first-line > button {
+.over-black-form__first-line > button {
     width: 26%;
 }
 
-.over-back-form__first-line__input {
+.over-black-form__first-line__input {
     display: flex;
     flex-direction: column;
     width: 30%;
 }
 
-.over-back-form__second-line {
+.over-black-form__second-line {
     display: flex;
     justify-content: center;
     font-size: 14px;
