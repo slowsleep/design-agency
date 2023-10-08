@@ -69,10 +69,6 @@ hr {
     column-gap: 1em;
 }
 
-/* .label-checkbox > div:nth-child(2) {
-    width: 90%;
-} */
-
 .label-checkbox > div:nth-child(2) > p {
     margin: 0;
 }
@@ -190,6 +186,13 @@ footer, .end-form {
 
 .header-navigation__item a:hover {
     color: #E3B873;
+}
+
+
+/* common styles for elements */
+
+.white-second-container__right-form__inputs__item > input, .end-form__first-line__input > input, .end-form__second-line > input {
+	color: white;
 }
 
 
