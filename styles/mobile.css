@@ -43,9 +43,12 @@
         padding: 0 1em;
     }
 
+    .header-content, .hero-container{
+        padding: 0;
+    }
+
     .header-content {
         height: 57px;
-        padding: 0;
     }
 
     .header-content > a {
@@ -57,10 +60,6 @@
         height: 100%;
         padding-top: 5em;
         padding-bottom: 4em;
-    }
-
-    .hero-container {
-        padding: 0;
     }
 
     .hero-container > h1 {
