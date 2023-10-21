@@ -69,10 +69,6 @@ hr {
     column-gap: 1em;
 }
 
-.label-checkbox > div:nth-child(2) > p {
-    margin: 0;
-}
-
 .label-light {
     color: rgba(255, 255, 255, 0.50);
 }
