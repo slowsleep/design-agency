@@ -245,10 +245,7 @@ footer, .end-form {
 .button-hero {
     font-style: italic;
     font-size: 11px;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-left: 4em;
-    padding-right: 4em;
+    padding: 2em 4em;
 }
 
 .button-hero-opacity {
@@ -355,7 +352,7 @@ footer, .end-form {
 }
 
 
-/* over-back section */
+/* over-black section */
 
 .over-black-container {
     margin-top: -26em;
@@ -539,7 +536,6 @@ footer, .end-form {
 }
 
 .white-container-cards__item-content-button > button > span {
-
     color: white;
 }
 
@@ -558,15 +554,13 @@ footer, .end-form {
 .white-second-container {
     background: url('../images/bg-white-section.jpg') no-repeat;
     background-position: left -15% top -100%;
-     margin-bottom: 14em;
-
+    margin-bottom: 14em;
 }
 
 .white-second-container > .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .white-second-container-content {
@@ -724,7 +718,6 @@ footer, .end-form {
 .bg-image-container-content-text > h2 {
     font-size: 27px;
     color: #E3B873;
-    /* margin: 0; */
     margin-bottom: 1em;
 }
 
@@ -762,7 +755,6 @@ footer, .end-form {
     padding-bottom: 24em;
     background-position: bottom;
     background-repeat: repeat-x;
-
 }
 
 .bg-our-clients-container {
@@ -834,7 +826,7 @@ footer, .end-form {
     height: 100%;
     object-fit: cover;
     object-position: center center;
-    border-radius: 50%; /
+    border-radius: 50%;
 }
 
 .bg-our-clients-container__card-footer {
