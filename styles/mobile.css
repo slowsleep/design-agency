@@ -1,36 +1,65 @@
-@media only screen and (max-width:1300px){
+@media only screen and (max-width:1300px) {
 
-    header, .black, .over-black, .bg-image, .end-container__form {
+    header,
+    .black,
+    .over-black,
+    .bg-image,
+    .end-container__form {
         background: #181818;
     }
 
-    .white-container__cards, .over-black-container__form__first-line, .our-clients-container__cards, .bg-image-container {
+    .white-container__cards,
+    .over-black-container__form__first-line,
+    .our-clients-container__cards,
+    .bg-image-container {
         flex-direction: column;
     }
 
-    .nav, .header__content > button, footer, .black-container__content__right, .our-clients, .white-second-container, .arrows {
+    .nav,
+    .header__content>button,
+    footer,
+    .black-container__content__right,
+    .our-clients,
+    .white-second-container,
+    .arrows {
         display: none;
     }
 
-    .black-container__content__left > p, .over-black-container > p, .black-container__content__left__cards__card > p {
+    .black-container__content__left>p,
+    .over-black-container>p,
+    .black-container__content__left__cards__card>p {
         font-size: 11px;
     }
 
-    .black-container__content__left__cards__card > h3 {
+    .black-container__content__left__cards__card>h3 {
         font-size: 14px;
     }
 
-    .subtitle, .bg-image-container__text > h2 {
+    .subtitle,
+    .bg-image-container__text>h2 {
         font-size: 22px;
     }
 
-    .container, .header__content, .hero-container, .hero-container > button,
-    .over-black-container > p, .over-black-container__form, .over-black-container__form__first-line > button,
-    .over-black-container__form__first-line__input, .over-black-container__videoplayer,
-    .black-container__content__left__album > img,  .black-container__content__left,
-    .bg-image-container__album > img,
-    .end-container__form, .end-container__form > button, .end-container__form__first-line__input, .end-container__form__first-line, .end-container__form__second-line,
-    .end-container > h2, .end-container__info > h2, .end-container__img-map > img {
+    .container,
+    .header__content,
+    .hero-container,
+    .hero-container>button,
+    .over-black-container>p,
+    .over-black-container__form,
+    .over-black-container__form__first-line>button,
+    .over-black-container__form__first-line__input,
+    .over-black-container__videoplayer,
+    .black-container__content__left__album>img,
+    .black-container__content__left,
+    .bg-image-container__album>img,
+    .end-container__form,
+    .end-container__form>button,
+    .end-container__form__first-line__input,
+    .end-container__form__first-line,
+    .end-container__form__second-line,
+    .end-container>h2,
+    .end-container__info>h2,
+    .end-container__img-map>img {
         width: 100%;
     }
 
@@ -42,7 +71,8 @@
         padding: 0 1em;
     }
 
-    .header__content, .hero-container{
+    .header__content,
+    .hero-container {
         padding: 0;
     }
 
@@ -50,7 +80,7 @@
         height: 57px;
     }
 
-    .header__content > a {
+    .header__content>a {
         color: white;
         text-decoration: none;
     }
@@ -61,13 +91,13 @@
         padding-bottom: 4em;
     }
 
-    .hero-container > h1 {
+    .hero-container>h1 {
         font-size: 23px;
         line-height: 132.825%;
         width: 90%;
     }
 
-    .hero-container > p {
+    .hero-container>p {
         font-size: 14px;
         line-height: 135.84%;
         margin-bottom: 3.7em;
@@ -84,7 +114,8 @@
         margin-top: 2.5em;
     }
 
-    .black-container, .over-black-container {
+    .black-container,
+    .over-black-container {
         margin-bottom: 0;
     }
 
@@ -102,7 +133,7 @@
         padding-top: 2em;
     }
 
-    .black-container__content__left > p {
+    .black-container__content__left>p {
         width: 90%;
     }
 
@@ -117,7 +148,8 @@
         align-items: center;
     }
 
-    .black-container__content__left__title, .black-container__content__left__text {
+    .black-container__content__left__title,
+    .black-container__content__left__text {
         text-align: center;
     }
 
@@ -154,7 +186,7 @@
         margin-top: 0;
     }
 
-    .over-black-container > hr {
+    .over-black-container>hr {
         width: 15%;
         border: 1px solid #E3B873;
     }
@@ -168,15 +200,15 @@
         height: auto;
     }
 
-    .over-black-container__videoplayer > img {
-        object-fit:fill;
+    .over-black-container__videoplayer>img {
+        object-fit: fill;
     }
 
-    .over-black-container__videoplayer__play > img {
+    .over-black-container__videoplayer__play>img {
         width: 50%;
     }
 
-    .over-black-container__videoplayer__play > button {
+    .over-black-container__videoplayer__play>button {
         padding: 2em;
     }
 
@@ -193,36 +225,38 @@
         color: rgba(255, 255, 255, 0.50);
     }
 
-    .over-black-container__form__first-line > .over-black-container__form__first-line__input:nth-child(1) {
+    .over-black-container__form__first-line>.over-black-container__form__first-line__input:nth-child(1) {
         margin-top: 2em;
     }
-    .over-black-container__form__first-line > .over-black-container__form__first-line__input:nth-child(2) {
+
+    .over-black-container__form__first-line>.over-black-container__form__first-line__input:nth-child(2) {
         margin-top: 3.5em;
     }
 
-    .over-black-container__form__first-line > label {
+    .over-black-container__form__first-line>label {
         margin: 1.5em 0 3em;
         line-height: 163.68%;
     }
 
-    .over-black-container__form__first-line > button {
+    .over-black-container__form__first-line>button {
         margin-bottom: -6em;
     }
 
-    .over-black-container__form__first-line__input > label {
+    .over-black-container__form__first-line__input>label {
         color: rgba(255, 255, 255, 0.50);
     }
 
-    .over-black-container__form__first-line__input > input {
+    .over-black-container__form__first-line__input>input {
         background: transparent;
     }
 
-    .over-black-container__form__first-line__input > input::placeholder {
+    .over-black-container__form__first-line__input>input::placeholder {
         color: rgba(255, 255, 255, 1);
         opacity: 1;
     }
 
-    .label-mobile, .over-black-container > p {
+    .label-mobile,
+    .over-black-container>p {
         color: white;
     }
 
@@ -252,15 +286,16 @@
         padding: 1em 2em 2em 2em;
     }
 
-    .white-container__cards__card__content__list > ul {
+    .white-container__cards__card__content__list>ul {
         line-height: 169.8%;
     }
 
-    .white-container__cards__card__content__list > h3, .white-container__cards__card__content__button > button > span {
+    .white-container__cards__card__content__list>h3,
+    .white-container__cards__card__content__button>button>span {
         font-size: 15px;
     }
 
-    .white-container__cards__card__content__button > button {
+    .white-container__cards__card__content__button>button {
         height: 2.5em;
     }
 
@@ -277,7 +312,8 @@
         margin-right: 0;
     }
 
-    .bg-image-container__text__list, .bg-image-container__images {
+    .bg-image-container__text__list,
+    .bg-image-container__images {
         display: none;
     }
 
@@ -285,7 +321,7 @@
         width: auto;
     }
 
-    .bg-image-container__text > h2 {
+    .bg-image-container__text>h2 {
         width: 80%;
         align-self: center;
         text-align: center;
@@ -304,15 +340,15 @@
         row-gap: 0;
     }
 
-    .end-container__form > h2 {
+    .end-container__form>h2 {
         align-self: center;
     }
 
-    .end-container__form > label {
+    .end-container__form>label {
         margin: 0;
     }
 
-    .end-container__form > button {
+    .end-container__form>button {
         margin: 0;
     }
 
@@ -326,7 +362,7 @@
         margin: 3.5em 0 1em;
     }
 
-    .end-container__form > button {
+    .end-container__form>button {
         margin: 5em 0 0;
     }
 
@@ -354,7 +390,7 @@
         width: 7em;
     }
 
-    .end-container__info__social > .yellow-circle {
+    .end-container__info__social>.yellow-circle {
         padding: 0.8em;
     }
 
